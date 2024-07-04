@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T-or-D</title>
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <style>
+        body, html {
+        height: 100%;
+        margin: 0;
+        overflow: hidden;
+    }
+    .panel {
+        cursor: pointer;
+        text-align: center;
+        font-size: 24px;
+    }
+    </style>
+    <script src="bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <div class="container-fluid h-100 bg-primary">
+        <div class="row h-50">
+            <button class="btn btn-primary col-12 d-flex justify-content-center align-items-center panel panel-top" data-bs-toggle="modal" data-bs-target="#topModal" style="border-radius: 0px;">
+                <h2>Top Panel</h2>
+            </button>
+        </div>
+        <div class="row h-50">
+            <button class="btn btn-danger col-12 d-flex justify-content-center align-items-center panel panel-bottom" data-bs-toggle="modal" data-bs-target="#bottomModal" style="border-radius: 2px;">
+                <h2>Bottom Panel</h2>
+            </button>
+        </div>
+    </div>
+
+    <!-- Top Modal -->
+
+    <div class="modal fade" data-bs-backdrop="static" data-bs-keyboard="false" id="topModal">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content bg-primary">
+            <div class="modal-header">
+              <h5 class="modal-title text-center" id="topModalLabel" style="width: 100%;">Truth</h5>
+            </div>
+            <div class="modal-body text-center" id="topModalBody">
+                <!-- Phrase will be inserted here -->
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger mx-auto" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- Bottom Modal -->
+    <div class="modal fade" data-bs-backdrop="static" data-bs-keyboard="false" id="bottomModal" >
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content bg-danger">
+                <div class="modal-header">
+                    <h5 class="modal-title text-center" id="bottomModalLabel" style="width: 100%;">Dare</h5>
+                </div>
+                <div class="modal-body text-center" id="bottomModalBody">
+                    <!-- Phrase will be inserted here -->
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary mx-auto" data-bs-dismiss="modal">Close</button>
+                  </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="jquery-3.5.1.min.js"></script>
+    <script src="popper.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
