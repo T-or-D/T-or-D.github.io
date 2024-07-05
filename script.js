@@ -180,7 +180,6 @@ document.addEventListener("DOMContentLoaded", function() {
         "What is the biggest romantic fail you’ve ever experienced.",
         "Name one thing you’d do if you knew there’d be zero consequences.",
         "When’s the last time you said you were sorry? For what?",
-        "Do you pee in the shower?",
         "What’s the most embarrassing thing you’ve done to get a crush’s attention?",
         "What’s more important to you: love or money?",
         "What’s the last movie that made you cry?",
@@ -240,7 +239,7 @@ document.addEventListener("DOMContentLoaded", function() {
         "Have you ever been in a fight?",
         "Have you ever had a wardrobe malfunction?",
         "What is the stupidest thing you have done for a crush or partner?",
-
+        "Who is the last person you have masturbated to?",
 
     ];
 
@@ -266,7 +265,7 @@ document.addEventListener("DOMContentLoaded", function() {
         "Talk to a pillow as if it’s your crush.",
         "Show the oldest selfie on your phone.",
         "Go to your crush’s Instagram page and like something from several weeks ago.",
-        "Find your very first crush on social and DM them.",
+        "Find your very first crush on social media and go through their posts.",
         "Describe the most attractive quality of every person in the room.",
         "Sing like an opera singer instead of speaking for the next two minutes.",
         "Let everyone pose you in an embarrassing position and take a picture.",
@@ -285,18 +284,18 @@ document.addEventListener("DOMContentLoaded", function() {
         "Serenade the person next to you.",
         "Try to fit your whole fist in your mouth.",
         "Read aloud the most personal text you’ve sent in recent days.",
-        "Reveal your screen time report to your friends.",
+        "Reveal your screen time report.",
         "Read out the last dirty text you sent",
         "Send a dirty text to someone right now",
         "Say something dirty to the person on your left",
-        "Remove four items of clothing",
-        "Remove three items of clothing",
+        "Remove 2 items of clothing",
+        "Remove 1 item of clothing",
         "Remove two items of clothing",
         "Remove one item of clothing",
         "Remove your shirt",
         "Remove your shoes",
         "Remove your socks",
-        "Tell the group two truths and a lie, and they have to guess which one the lie is",
+        "Tell two truths and a lie, and other people have to guess which one the lie is",
         "Perform a seductive dance for the whole group",
         "Do an imitation of your favourite TikToker",
         "Share a picture of your current crush to the rest of the group",
@@ -318,6 +317,10 @@ document.addEventListener("DOMContentLoaded", function() {
         "Describe what sight turns you on.",
         "Describe what body part turns you on.",
         "Tell your favorite smutty story.",
+        "Describe what you imagine when you orgasm.",
+        "Describe what you imagine when you masturbate.",
+        "Describe your favorite role-play scene to be in.",
+        "Describe what you wish your partner does to you during sex.",
 
     ];
 
